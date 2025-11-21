@@ -1,20 +1,18 @@
 # Tintinnabuli
 
-Generate a random Tintinnabuli melodies.
+Generate very simple random Tintinnabuli melodies.
 
-## midifile.js
+## fa_to_midifile.js
 
-Rythmically shaped around Für Alina.
+This write a MIDI file containing a random Tintinnabuli melody rythmically shaped around Für Alina. Each execution creates a different melody. The file can be imported into a DAW for example. Using using Node:-
 
 ```
 npm install midi-writer-js
-node midifile.js > midifile.mid
+node fa_to_midifile.js > tintin.mid
 ```
 
-Then import the MIDI file into your DAW etc. 
+## bitwing_fa_tintin.js
 
-You'll get a different melody each time you run ```randomness1.js```.
+A Bitwig script that generates a simple Tintinnabuli melody rythmically shaped around Für Alina. 
 
-## Acknowledgements
-
-MidiWriterJS - https://github.com/grimmdude/MidiWriterJS
+WIP
