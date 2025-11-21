@@ -1,10 +1,14 @@
-# Tintinnabuli 1
+# Tintinnabuli
 
-Generate a random Tintinnabuli melody rythmically shaped around Für Alina.
+Generate a random Tintinnabuli melodies.
+
+## midifile.js
+
+Rythmically shaped around Für Alina.
 
 ```
 npm install midi-writer-js
-node randomness1.js > randomness1.mid
+node midifile.js > midifile.mid
 ```
 
 Then import the MIDI file into your DAW etc. 
