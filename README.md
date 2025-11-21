@@ -11,7 +11,7 @@ npm install midi-writer-js
 node furalina_to_midifile.js > tintin.mid
 ```
 
-## furalina_to_bitwig.js
+## furalina_to_bitwig.control.js
 
 A Bitwig (controller) script that generates a Tintinnabuli melody rythmically shaped around Für Alina. 
 
